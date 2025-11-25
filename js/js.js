@@ -11,9 +11,9 @@ function handleClick() {
   alert('Button clicked!');
 }
 
-const box7 = document.getElementById('Box7');
-box7.addEventListener('mouseover', border-radius())
-function border-radius() {
+const box7 = document.getElementById('box7');
+box7.addEventListener('mouseover', borderRadius)
+function borderRadius() {
   box7.style.borderRadius = '25px';
 }
 box7.addEventListener('dblclick', normalBorder)
@@ -25,3 +25,7 @@ const decodedOutput = document.getElementById('decodedOutput');
 function decodeMessage() {
 //   const codedMessage = document.getElementById('codedMessage').value;
   let decodedMessage = 'Forbidden Letter Detected';}
+  if (codedMessage.includes('x')) {
+        decodedOutput.textContent = decodedMessage;
+        return;
+        }
