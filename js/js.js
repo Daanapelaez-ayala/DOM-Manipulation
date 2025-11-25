@@ -1,9 +1,9 @@
-const secretParagraph = document.getElementById('secretText991');
+const secretText991 = document.getElementById('secretText991');
 
     
-        secretParagraph.style.visibility = 'visible';
+        secretText991.style.visibility = 'visible';
 
-        secretParagraph.textContent = 'You found me using the DOM!';
+        secretText991.textContent = 'You found me using the DOM!';
 
 // Task 2: Button behavior
 const weirdButtonX = document.getElementById('weirdButtonX');
