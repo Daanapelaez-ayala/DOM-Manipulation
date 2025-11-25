@@ -10,6 +10,7 @@ weirdButtonX.addEventListener('click', handleClick);
 function handleClick() {
   alert('Button clicked!');
 }
+
 const box7 = document.getElementById('Box7');
 box7.addEventListener('mouseover', border-radius())
 function border-radius() {
@@ -19,3 +20,8 @@ box7.addEventListener('dblclick', normalBorder)
 function normalBorder() {
   box7.style.borderRadius = '0px';
 }
+
+const decodedOutput = document.getElementById('decodedOutput');
+function decodeMessage() {
+//   const codedMessage = document.getElementById('codedMessage').value;
+  let decodedMessage = 'Forbidden Letter Detected';}
