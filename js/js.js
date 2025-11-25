@@ -15,7 +15,7 @@ box7.addEventListener('mouseover', border-radius())
 function border-radius() {
   box7.style.borderRadius = '25px';
 }
-box7.addEventListener('mouseout', normalBorder())
+box7.addEventListener('dblclick', normalBorder)
 function normalBorder() {
   box7.style.borderRadius = '0px';
 }
